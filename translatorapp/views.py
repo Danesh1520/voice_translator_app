@@ -1,3 +1,5 @@
+pip setup.py install
+import pyaudio
 from django.shortcuts import render
 from googletrans import Translator
 from gtts.langs import _main_langs
