@@ -4,6 +4,7 @@ from gtts.langs import _main_langs
 import speech_recognition as sr
 from io import BytesIO
 from gtts import gTTS
+import pyaudio
 import pygame
 import time
 
