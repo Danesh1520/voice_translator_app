@@ -8,6 +8,8 @@ from setup import setup_extension
 import pygame
 import time
 
+setup_extension
+import pyaudio
 def home(request):
     return render(request,'home.html')
 
