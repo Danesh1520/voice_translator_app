@@ -5,11 +5,8 @@ import speech_recognition as sr
 from io import BytesIO
 from gtts import gTTS
 import pygame
-import setup
 import time
 
-setup.setup_extension()
-import pyaudio
 
 def home(request):
     return render(request,'home.html')
