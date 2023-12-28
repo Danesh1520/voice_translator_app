@@ -1,4 +1,4 @@
-pip setup.py install
+python setup.py install
 import pyaudio
 from django.shortcuts import render
 from googletrans import Translator
