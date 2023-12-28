@@ -4,12 +4,10 @@ from gtts.langs import _main_langs
 import speech_recognition as sr
 from io import BytesIO
 from gtts import gTTS
-from setup import setup_extension
 import pygame
 import time
 
-setup_extension
-import pyaudio
+
 def home(request):
     return render(request,'home.html')
 
