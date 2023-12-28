@@ -1,5 +1,3 @@
-python setup.py install
-import pyaudio
 from django.shortcuts import render
 from googletrans import Translator
 from gtts.langs import _main_langs
@@ -7,8 +5,11 @@ import speech_recognition as sr
 from io import BytesIO
 from gtts import gTTS
 import pygame
+import setup
 import time
 
+setup.setup_extension()
+import pyaudio
 
 def home(request):
     return render(request,'home.html')
